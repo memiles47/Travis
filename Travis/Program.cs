@@ -53,20 +53,14 @@ namespace Travis
                                 knownUsers.Add(name);
                                 Console.WriteLine($"\n{name}, you have been added to the system.\n");
                                 foreach (var temp in knownUsers)
-                                {
                                     Console.WriteLine(temp);
-                                }
                                 Console.WriteLine("\n");
                             }
                             else if (addName == "n")
-                            {
                                 Console.WriteLine("\nNo Worries, see you around\n");
-                            }
                         }
                         else
-                        {
                             travisContinue = false;
-                        }
                     }
                 }
                 else
